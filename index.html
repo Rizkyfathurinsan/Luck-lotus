@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Luck&Lotus</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/lucklotus_logo.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -24,11 +24,21 @@
     <!-- Start your project here-->
     <header class="mb-5 mb-lg-7">
        <!-- Navbar -->
-    <nav style="z-index: 1;
+    <nav style="z-index: 5;
     min-height: 58.59px;
    "class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
       <!-- Container wrapper -->
       <div class="container">
+
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+              src="img/lucklotus_logo.png"
+              height="15"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+
         <!-- Toggle button -->
         <button
           data-mdb-collapse-init
@@ -45,14 +55,7 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
-            <img
-              src="img/lucklotus_logo.png"
-              height="15"
-              alt="MDB Logo"
-              loading="lazy"
-            />
-          </a>
+         
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -108,106 +111,107 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
         <!-- Background image -->
 
         <!-- Section: Details -->
-    <section class="mb-5 mb-lg-10">
-      <div class="row gx-xl-5">
+          <section class="mb-5 mb-lg-10">
+            <div class="row gx-xl-5">
 
-        <div class="col-lg-7 mb-5 mb-lg-0">
-          <!-- Carousel wrapper -->
-            <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
-              <!-- Indicators -->
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-mdb-target="#carouselBasicExample"
-                  data-mdb-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-mdb-target="#carouselBasicExample"
-                  data-mdb-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-mdb-target="#carouselBasicExample"
-                  data-mdb-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
+              <div class="col-lg-7 mb-5 mb-lg-0">
+                <!-- Carousel wrapper -->
+                  <div id="carouselBasicExample" class="carousel slide carousel-fade mb-4" data-mdb-ride="carousel" data-mdb-carousel-init>
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner rounded-6 shadow-4-strong">
+                      <!-- Single item -->
+                      <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/5424636/pexels-photo-5424636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Sunset Over the City"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <!-- <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                        </div>
+                      </div>
+
+                      <!-- Single item -->
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/326515/pexels-photo-326515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Canyon at Nigh"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <!-- <h5>Second slide label</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                        </div>
+                      </div>
+
+                      <!-- Single item -->
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+                        <div class="carousel-caption d-none d-md-block">
+                          <!-- <h5>Third slide label</h5>
+                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- Carousel wrapper -->
+
               </div>
 
-              <!-- Inner -->
-              <div class="carousel-inner rounded-6">
-                <!-- Single item -->
-                <div class="carousel-item active">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City"/>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </div>
-                </div>
+              <div class="col-lg-5 mb-5 mb-lg-0">
 
-                <!-- Single item -->
-                <div class="carousel-item">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                </div>
-
-                <!-- Single item -->
-                <div class="carousel-item">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  </div>
-                </div>
+                <h3 class="fw-bold mb-4">Start your story with us</h3>
+              
+                <p>At Luck & Lotus Creative, we take pride in our diverse portfolio. Each project we undertake is a testament to our commitment to originality and innovation. From informative websites to compelling content, we create solutions that not only meet but exceed expectations.</p>
+              
+                <p class="mb-2"><strong>Why Us?</strong></p>
+              
+                <ul class="list-unstyled">
+                  <li><i class="fas fa-check text-success me-2"></i>List 1</li>
+                  <li><i class="fas fa-check text-success me-2"></i>List 2</li>
+                  <li><i class="fas fa-check text-success me-2"></i>List 3</li>
+                  <li><i class="fas fa-check text-success me-2"></i>List 4</li>
+                </ul>
+              
+                <!-- <a class="btn btn-link btn-rounded" href="#" role="button" data-mdb-ripple-color="primary">Learn more</a> -->
+              
               </div>
-              <!-- Inner -->
 
-              <!-- Controls -->
-              <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
-            <!-- Carousel wrapper -->
-
-        </div>
-
-        <div class="col-lg-5 mb-5 mb-lg-0">
-
-          <h3 class="fw-bold mb-4">Start your story with us</h3>
-        
-          <p>At Luck & Lotus Creative, we take pride in our diverse portfolio. Each project we undertake is a testament to our commitment to originality and innovation. From informative websites to compelling content, we create solutions that not only meet but exceed expectations.</p>
-        
-          <p class="mb-2"><strong>Why Us?</strong></p>
-        
-          <ul class="list-unstyled">
-            <li><i class="fas fa-check text-success me-2"></i>List 1</li>
-            <li><i class="fas fa-check text-success me-2"></i>List 2</li>
-            <li><i class="fas fa-check text-success me-2"></i>List 3</li>
-            <li><i class="fas fa-check text-success me-2"></i>List 4</li>
-          </ul>
-        
-          <!-- <a class="btn btn-link btn-rounded" href="#" role="button" data-mdb-ripple-color="primary">Learn more</a> -->
-        
-        </div>
-
-      </div>
-    </section>
-    <!-- Section: Details -->
+          </section>
+        <!-- Section: Details -->
 
     <!-- Section: My projects -->
-<section class="mb-10 text-center">
+<section class="mb-10 text-center" id="services">
   <h2 class="fw-bold mb-7 text-center">What We Do</h2>
 
   <div class="row gx-lg-5">
@@ -217,7 +221,7 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
   
       <div class="card">
         <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-          <img src="https://mdbootstrap.com/img/new/textures/small/148.jpg" class="img-fluid" />
+          <img src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" />
           <a href="#!">
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
           </a>
@@ -225,14 +229,14 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
         <div class="card-body">
           <h5 class="card-title">Company Profile </h5>
           <p class="text-muted">
-            <small>Finished <u>13.09.2021</u> for
+            <!-- <small>Finished <u>13.09.2021</u> for
               <a href="" class="text-dark">Techify</a></small>
           </p>
           <p class="card-text">
             Short Description Here
           </p>
           <a href="#!" class="btn btn-secondary btn-rounded" data-mdb-ripple-init style="--mdb-btn-bg: #e2f7e5;
-    --mdb-btn-color: #14a44d;">Read more</a>
+    --mdb-btn-color: #14a44d;">Read more</a> -->
         </div>
       </div>
   
@@ -244,7 +248,7 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
   
       <div class="card">
         <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-          <img src="https://mdbootstrap.com/img/new/textures/small/38.jpg" class="img-fluid" />
+          <img src="https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" />
           <a href="#!">
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
           </a>
@@ -252,14 +256,14 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
         <div class="card-body">
           <h5 class="card-title">Websites</h5>
           <p class="text-muted">
-            <small>Finished <u>12.01.2022</u> for
+            <!-- <small>Finished <u>12.01.2022</u> for
               <a href="" class="text-dark">Rubicon</a></small>
           </p>
           <p class="card-text">
             Short Description Here
           </p>
           <a href="#!" class="btn btn-secondary btn-rounded" data-mdb-ripple-init style="--mdb-btn-bg: #e2f7e5;
-    --mdb-btn-color: #14a44d;">Read more</a>
+    --mdb-btn-color: #14a44d;">Read more</a> -->
         </div>
       </div>
   
@@ -271,7 +275,7 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
   
       <div class="card">
         <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-          <img src="https://mdbootstrap.com/img/new/textures/small/55.jpg" class="img-fluid" />
+          <img src="https://images.pexels.com/photos/20891018/pexels-photo-20891018/free-photo-of-person-writing-on-a-typewriter.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" />
           <a href="#!">
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
           </a>
@@ -279,14 +283,14 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
         <div class="card-body">
           <h5 class="card-title">Copy Writing </h5>
           <p class="text-muted">
-            <small>Finished <u>10.11.2022</u> for
+            <!-- <small>Finished <u>10.11.2022</u> for
               <a href="" class="text-dark">Venom Tech</a></small>
           </p>
           <p class="card-text">
             Short Description Here
           </p>
           <a href="#!" class="btn btn-secondary btn-rounded" data-mdb-ripple-init style="--mdb-btn-bg: #e2f7e5;
-    --mdb-btn-color: #14a44d;">Read more</a>
+    --mdb-btn-color: #14a44d;">Read more</a> -->
         </div>
       </div>
   
@@ -298,7 +302,7 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
   
       <div class="card">
         <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-          <img src="https://mdbootstrap.com/img/new/textures/small/55.jpg" class="img-fluid" />
+          <img src="https://images.pexels.com/photos/4913385/pexels-photo-4913385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" />
           <a href="#!">
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
           </a>
@@ -306,14 +310,14 @@ background-image: url('img/pexels-picjumbo-com-55570-196644.jpg');">
         <div class="card-body">
           <h5 class="card-title">Visual Identities</h5>
           <p class="text-muted">
-            <small>Finished <u>10.11.2022</u> for
+            <!-- <small>Finished <u>10.11.2022</u> for
               <a href="" class="text-dark">Venom Tech</a></small>
           </p>
           <p class="card-text">
             Short Description Here
           </p>
           <a href="#!" class="btn btn-secondary btn-rounded" data-mdb-ripple-init style="--mdb-btn-bg: #e2f7e5;
-    --mdb-btn-color: #14a44d;">Read more</a>
+    --mdb-btn-color: #14a44d;">Read more</a> -->
         </div>
       </div>
   
@@ -516,8 +520,11 @@ Section: Pricing -->
       <!-- Second column -->
       <div class="col-lg-6 mb-5 mb-lg-0">
 
-        <img
+        <!-- <img
           src="https://mdbootstrap.com/img/new/standard/people/272.jpg"
+          class="w-100 rounded-7 shadow-4" alt="" /> -->
+          <img
+          src="https://images.pexels.com/photos/12662854/pexels-photo-12662854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           class="w-100 rounded-7 shadow-4" alt="" />
 
       </div>
@@ -576,15 +583,16 @@ Section: Pricing -->
 
           <div>
             <div class="rounded-7 p-4" style="background-color: hsl(128.57deg 56.76% 92.75%)">
-              <p class="text-muted mt-4 mb-2">(insert industry)</p>
+              <p class="text-muted mt-4 mb-2">Health & Beauty</p>
               <p class="h5 mb-4 text-primary" style="color: #14a44d !important;">Thum</p>
               <p class="pb-4 mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis molestias quidem
-                itaque earum tempora distinctio soluta ut, eius, impedit porro iure praesentium
-                ratione possimus quos suscipit, ratione nostrum cum odit.
+                
+                Supported Thum by leading efforts in branding, managing social media platforms, 
+                and developing their website. Enhancing their digital presence, 
+                streamlined their marketing efforts, and strengthened their overall market appeal.
               </p>
             </div>
-            <img src="https://mdbootstrap.com/img/new/avatars/22.jpg" class="w-100 rounded-7 mt-n5"
+            <img src="img/Thum.jpg" class="w-100 rounded-7 mt-n5"
               style="max-width: 100px" alt="Avatar" />
           </div>
 
@@ -599,9 +607,8 @@ Section: Pricing -->
               <p class="text-muted mt-4 mb-2">Konjac Flour</p>
               <p class="h5 mb-4 text-primary" style="color: #14a44d !important;">Rezka</p>
               <p class="pb-4 mb-4">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-                soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                placeat facere possimus, omnis voluptas assumenda est omnis.
+              Overseeing branding strategies, managing social media accounts, and developing their website. 
+              Increasing brand visibility, improved online engagement, and showcasing the Company’s products and expertise in the konjac flour industry.
               </p>
             </div>
             <img src="img/rezka_nayatama_logo.jpeg" class="w-100 rounded-7 mt-n5"
@@ -619,9 +626,9 @@ Section: Pricing -->
               <p class="text-muted mt-4 mb-2">Retail Fashion</p>
               <p class="h5 mb-4 text-primary" style="color: #14a44d !important;">Guit.Digital</p>
               <p class="pb-4 mb-4">
-                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-                eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
-                earum rerum hic tenetur a sapiente delectus ut aut reiciendis.
+              Contributing by spearheading branding initiatives, 
+              managing social media channels, and developing their website and eCommerce platform. 
+              Elevating the brand’s image, boosting online engagement, and optimized their digital presence.
               </p>
             </div>
             <img src="img/powderr_asia_logo.jpeg" class="w-100 rounded-7 mt-n5"
@@ -639,9 +646,9 @@ Section: Pricing -->
               <p class="text-muted mt-4 mb-2">IOT Technology</p>
               <p class="h5 mb-4 text-primary" style="color: #14a44d !important;">Miota</p>
               <p class="pb-4 mb-4">
-                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-                eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
-                earum rerum hic tenetur a sapiente delectus ut aut reiciendis.
+              Driving branding efforts, managing social media presence, and developing their website. 
+              These Strategies improved the company’s digital footprint, enhanced market visibility, 
+              and effectively communicated their innovative technology solutions.
               </p>
             </div>
             <img src="img/apps-icon.png" class="w-100 rounded-7 mt-n5"
@@ -665,36 +672,79 @@ Section: Pricing -->
 
     <div class="col-lg-5 mb-4 mb-lg-0">
 
-      <form>
+      <form method="POST" action="send-email.php" id="contact-form">
         <!-- Name input -->
         <div class="form-outline mb-4" data-mdb-input-init>
-          <input type="text" id="form4Example1" class="form-control" />
-          <label class="form-label" for="form4Example1">Name</label>
+          <input type="text" id="form4Example1" class="form-control" name="name"/>
+          <label class="form-label" for="form4Example1" >Name</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4" data-mdb-input-init>
-          <input type="email" id="form4Example2" class="form-control" />
-          <label class="form-label" for="form4Example2">Email address</label>
+          <input type="email" id="form4Example2" class="form-control" name="email"/>
+          <label class="form-label" for="form4Example2" >Email address</label>
         </div>
 
         <!-- Message input -->
         <div class="form-outline mb-4" data-mdb-input-init>
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-          <label class="form-label" for="form4Example3">Message</label>
+          <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+          <label class="form-label" for="form4Example3" >Message</label>
         </div>
 
         <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
+        <!-- <div class="form-check d-flex justify-content-center mb-4">
           <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
           <label class="form-check-label" for="form4Example4">
             Send me a copy of this message
           </label>
-        </div>
+        </div> -->
 
         <!-- Submit button -->
         <button type="submit" class="btn btn-primary btn-block mb-4" data-mdb-ripple-init>Send</button>
       </form>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+      <script>
+          const constraints = {
+              name: {
+                  presence: {allowEmpty: false}
+              },
+              email: {
+                  presence: {allowEmpty: false},
+                  email: true
+              },
+              message: {
+                  presence: {allowEmpty: false}
+              }
+          };
+
+          const form = document.getElementById('contact-form');
+
+          form.addEventListener('submit', function (event) {
+              const formValues = {
+                  name: form.elements.name.value,
+                  email: form.elements.email.value,
+                  message: form.elements.message.value
+              };
+
+              const errors = validate(formValues, constraints);
+
+              if (errors) {
+                  event.preventDefault();
+                  const errorMessage = Object
+                      .values(errors)
+                      .map(function (fieldValues) {
+                          return fieldValues.join(', ')
+                      })
+                      .join("\n");
+
+                  alert(errorMessage);
+              }
+          }, false);
+
+          function onRecaptchaSuccess () {
+              document.getElementById('contact-form').submit()
+          }
+      </script>
 
     </div>
 
@@ -794,8 +844,7 @@ Section: Pricing -->
             /> </i>Luck&Lotus
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          Let’s Create Something Amazing Together
           </p>
         </div>
         <!-- Grid column -->
@@ -804,19 +853,19 @@ Section: Pricing -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Products
+            Services
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#services" class="text-reset">Company Profile</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#services" class="text-reset">Websites</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#services" class="text-reset">Copy Writing</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#services" class="text-reset">Visual Identities</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -825,19 +874,19 @@ Section: Pricing -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
+            Our Clients
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="#!" class="text-reset">Rezka</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="#!" class="text-reset">Miota</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Orders</a>
+            <a href="#!" class="text-reset">Guit.Digital</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">Thum</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -846,13 +895,13 @@ Section: Pricing -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i>  Jalan Sudirman, Jakarta, Indonesia</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            contact@luckandlotus.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i> +62-XXX-XXXX-XXXX (WA)</p>
+          <p><i class="fas fa-print me-3"></i> +62-XXX-XXXX-XXXX (Call)</p>
         </div>
         <!-- Grid column -->
       </div>
